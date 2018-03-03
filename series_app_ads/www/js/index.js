@@ -33,7 +33,7 @@ var app = {
 
 	//var inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
         //inAppBrowserbRef = cordova.InAppBrowser.open('https://sofra.cbc-eg.com/', '_self', 'location=no,toolbar=no,zoom=no,clearcache=no,clearsessioncache=no');
-        var ref = window.open('https://sofra.cbc-eg.com/stars/chef15', '_blank', 'location=no,toolbar=no,zoom=no,clearcache=no,clearsessioncache=no');
+        var ref = window.open('https://sofra.cbc-eg.com/stars/chef1', '_blank', 'location=no,toolbar=no,zoom=no,clearcache=no,clearsessioncache=no');
         ref.addEventListener('loadstop', function() {
   ref.executeScript({
     code: "document.getElementsByTagName('html')[0].innerHTML"
@@ -86,8 +86,8 @@ function initAd(){
                     interstitial: 'ca-app-pub-xxxxxxxxxxx/xxxxxxxxxxx'	//PUT ADMOB ADCODE HERE 
                 },
                 android : {
-                    banner: 'ca-app-pub-7251676025279948/7676925027',		//PUT ADMOB ADCODE HERE 
-                    interstitial: 'ca-app-pub-7251676025279948/3016050319'	//PUT ADMOB ADCODE HERE 
+                    banner: 'ca-app-pub-7251676025279948/5447432647',		//PUT ADMOB ADCODE HERE 
+                    interstitial: 'ca-app-pub-7251676025279948/7880409899'	//PUT ADMOB ADCODE HERE 
                 }
             };
             var admobid = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
