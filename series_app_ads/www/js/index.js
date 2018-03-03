@@ -65,6 +65,8 @@ showInterstitialFunc();
         receivedElement.setAttribute('style', 'display:block;');
 initAd();
 
+showBannerFunc();
+showInterstitialFunc();
 
 
         console.log('Received Event: ' + id);
